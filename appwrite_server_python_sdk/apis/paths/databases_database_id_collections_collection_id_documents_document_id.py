@@ -1,0 +1,11 @@
+from appwrite_server_python_sdk.paths.databases_database_id_collections_collection_id_documents_document_id.get import ApiForget
+from appwrite_server_python_sdk.paths.databases_database_id_collections_collection_id_documents_document_id.delete import ApiFordelete
+from appwrite_server_python_sdk.paths.databases_database_id_collections_collection_id_documents_document_id.patch import ApiForpatch
+
+
+class DatabasesDatabaseIdCollectionsCollectionIdDocumentsDocumentId(
+    ApiForget,
+    ApiFordelete,
+    ApiForpatch,
+):
+    pass
